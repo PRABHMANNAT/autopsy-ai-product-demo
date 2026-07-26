@@ -2,12 +2,18 @@
   "name": "ventureverdict-playground",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
-    "dev": "vinext dev --port 5176",
-    "build": "vinext build",
-    "start": "vinext start",
+    "dev": "next dev -p 5176",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sites:dev": "vinext dev --port 5176",
+    "sites:build": "vinext build",
+    "sites:start": "vinext start"
   },
   "dependencies": {
     "autoprefixer": "^10.5.4",
