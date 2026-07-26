@@ -109,7 +109,7 @@ export function SuccessExperience() {
               round funded.
             </h1>
             <p className="mt-6 max-w-[510px] text-[16px] leading-7 text-white/46">
-              VentureVerdict is matching your product with the right reviewers.
+              Playground is matching your product with the right reviewers.
             </p>
           </motion.div>
 

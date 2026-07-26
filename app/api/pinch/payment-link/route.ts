@@ -57,13 +57,13 @@ export async function POST() {
   const body = {
     amount: 500,
     payerId: PINCH_PAYER_ID,
-    description: "VentureVerdict validation campaign deposit",
+    description: "Playground validation campaign deposit",
     currency: "AUD",
     allowedPaymentMethods: ["credit-card", "bank-account"],
     returnUrl: `${NEXT_PUBLIC_APP_URL.replace(/\/$/, "")}/success`,
     metadata: JSON.stringify({
       projectId: "demo-ai-recruitment",
-      product: "VentureVerdict",
+      product: "Playground",
       package: "human-validation-deposit",
       generalReviewers: 100,
       specializedReviewers: 7,

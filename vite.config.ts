@@ -18,13 +18,13 @@ const localBindingConfig = {
     ? [
         {
           binding: d1,
-          database_name: "ventureverdict-d1",
+          database_name: "playground-d1",
           database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
         },
       ]
     : [],
   r2_buckets: r2
-    ? [{ binding: r2, bucket_name: "ventureverdict-r2" }]
+    ? [{ binding: r2, bucket_name: "playground-r2" }]
     : [],
 };
 

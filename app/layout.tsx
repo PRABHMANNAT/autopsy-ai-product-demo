@@ -13,14 +13,14 @@ export async function generateMetadata(): Promise<Metadata> {
     process.env.NEXT_PUBLIC_APP_URL ??
     (host ? `${protocol}://${host}` : "http://localhost:5176");
   const socialImage = new URL("/og.png", origin).toString();
-  const title = "VentureVerdict — Launch with evidence";
+  const title = "Playground — Launch with evidence";
   const description =
     "AI startup autopsies, product audits and human validation campaigns in one evidence-first platform.";
 
   return {
     title: {
       default: title,
-      template: "%s · VentureVerdict",
+      template: "%s · Playground",
     },
     description,
     metadataBase: new URL(origin),

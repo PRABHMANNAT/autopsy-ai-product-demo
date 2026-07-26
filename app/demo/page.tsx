@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DemoFlow } from "@/components/vv/demo-flow";
+import { DemoFlow } from "@/components/playground/demo-flow";
 
 export const metadata: Metadata = {
   title: "60-second validation demo",

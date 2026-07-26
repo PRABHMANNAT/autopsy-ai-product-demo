@@ -13,9 +13,9 @@ import {
   Stagger,
   rise,
 } from "@/components/pg/motion";
-import { AmbientBackground } from "@/components/vv/ambient-background";
-import { PipelineVisual } from "@/components/vv/pipeline-visual";
-import { SiteHeader } from "@/components/vv/site-header";
+import { AmbientBackground } from "@/components/playground/ambient-background";
+import { PipelineVisual } from "@/components/playground/pipeline-visual";
+import { SiteHeader } from "@/components/playground/site-header";
 
 const signals = [
   {

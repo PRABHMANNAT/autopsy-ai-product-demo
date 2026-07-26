@@ -846,7 +846,7 @@ function SandboxModal({
               <div className="mt-5 rounded-[18px] border border-white/[0.08] bg-white/[0.035] p-4">
                 <div className="flex items-start justify-between">
                   <div>
-                    <p className="text-[11px] text-white/32">VentureVerdict</p>
+                    <p className="text-[11px] text-white/32">Playground</p>
                     <p className="mt-1 text-[14px] font-medium text-warm">
                       Startup-validation deposit
                     </p>

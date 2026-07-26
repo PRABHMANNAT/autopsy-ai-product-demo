@@ -1,4 +1,4 @@
-# VentureVerdict Playground
+# Playground
 
 A three-route hackathon demonstration for AI-and-human startup validation:
 
