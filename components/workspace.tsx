@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { SidebarRail } from "./sidebar-rail";
 import { ChatFeed } from "./chat-feed";
-import { RunProgress } from "./run-progress";
+import { StepSpine } from "./run/step-spine";
 import { PreviewPanel } from "./preview/preview-panel";
 
 /**
@@ -21,7 +21,7 @@ export function Workspace() {
         onOpenPreview={() => setPreviewOpen(true)}
         onClosePreview={() => setPreviewOpen(false)}
       />
-      {previewOpen ? <PreviewPanel /> : <RunProgress />}
+      {previewOpen ? <PreviewPanel /> : <StepSpine />}
     </main>
   );
 }
