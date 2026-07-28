@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: #f7f3ec;
+  }
+
+  body {
+    @apply bg-canvas text-ink tracking-body antialiased;
+  }
+
+  /* Faint engineering-grid texture behind the work surface */
+  .grid-texture {
+    background-color: #f5f1e9;
+    background-image:
+      linear-gradient(rgba(75, 67, 58, 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(75, 67, 58, 0.055) 1px, transparent 1px);
+    background-size: 34px 34px;
+  }
+
+  /* Warm scrollbars so the rails do not read as a browser default */
+  .thin-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #c6bbaf transparent;
+  }
+  .thin-scroll::-webkit-scrollbar {
+    width: 8px;
+  }
+  .thin-scroll::-webkit-scrollbar-thumb {
+    background: #c6bbaf;
+    border-radius: 999px;
+  }
+  .thin-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-[10px] uppercase text-ink-soft;
+    letter-spacing: 0.22em;
+  }
+}
